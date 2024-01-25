@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./SectionNavigation.css"
 import LeftView from "../LeftView/LeftView";
+import RightView from "../RightView/RightView";
+
 
 const SectionNavigation = ({ sections, pages }) => {
 
@@ -23,7 +25,7 @@ const SectionNavigation = ({ sections, pages }) => {
             return (
                 <div className="sections-container">
                     <LeftView sectionItems={sectionItems} />
-                    {/* <RightView sectionItems={sectionItems} /> */}
+                    <RightView sectionItems={sectionItems} />
                 </div>
             )
         })

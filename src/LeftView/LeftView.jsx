@@ -6,7 +6,7 @@ const LeftView = ({ sectionItems }) => {
     function getSectionItem (children) {
         return children.map((child) => {
             return (
-                <div className="left-panel-item">
+                <div key={child.id} className="left-panel-item">
                     <span className="left-panel-item-label">{child.label}</span>
                     <span className="left-panel-item-value">{child?.content?.value}</span>
                 </div>
