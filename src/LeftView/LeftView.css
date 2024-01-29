@@ -1,0 +1,19 @@
+.left-panel-items {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: 1px solid blue;
+    max-width: 30vw;
+}
+
+.section-header {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.left-panel-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 1rem;
+}
